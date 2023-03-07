@@ -47,13 +47,11 @@ main{
 #general-container{
   width: 100vw;
   height: 85vh;
-  background-color: rgba(0, 0, 255, 0.336);
 }
 
 #two-sections-container{
   display: flex;
   height: 85vh;
-  background-color: rgba(0, 0, 255, 0.336);
 }
 
 #spotify-menu{
@@ -71,7 +69,7 @@ main{
   width: 100%;
   height: 10vh;
   border: solid;
-  background-color: #080b12e3;
+  background-color: #080b12;
 }
 
 #main-content{
@@ -151,30 +149,33 @@ main{
   color: white;
 }
 
-
 #upgrade-container{
   display: flex;
   align-items: center;
   padding: 10px 5px;
   justify-content: flex-end;
-  cursor: pointer;
 }
 
 .upgrade{
-  padding: 5px 10px;
+  padding: 5px 40px;
   border: solid white;
   border-radius: 15px;
-  width: 200px;
+  max-width: 200px;
   height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .upgrade a{
   font-size: x-small;
   text-decoration: none;
   color: white;
+}
+
+#music-library{
+  background-color: #141922;
 }
 
 
