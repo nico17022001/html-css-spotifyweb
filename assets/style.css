@@ -13,17 +13,13 @@
 
 #general-container{
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
   background-color: rgba(0, 0, 255, 0.336);
 }
 
 #two-sections-container{
   display: flex;
-  background-color: rgba(0, 0, 255, 0.336);
-}
-
-#two-sections-container{
-  width: 100vw;
+  height: 85vh;
   background-color: rgba(0, 0, 255, 0.336);
 }
 
