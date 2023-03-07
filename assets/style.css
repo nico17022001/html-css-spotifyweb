@@ -1,0 +1,89 @@
+/*General*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+/*Main*/
+
+#general-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+#two-sections-container{
+  display: flex;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+#two-sections-container{
+  width: 100vw;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+#spotify-menu{
+  width: 20vw;
+  height: 85vh;
+  border: solid;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+#spotify-content{
+  width: 80vw;
+  border: solid;
+  overflow: overlay;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+#upgrade-container{
+  width: 100%;
+  height: 15vh;
+  border: solid;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+#main-content{
+  width: 100%;
+  height: 70vh;
+  border: solid;
+  overflow: hidden;
+  overflow: auto;
+  background-color: yellow
+}
+
+#container-music-play{
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  height: 15vh;
+  border: solid;
+  background-color: rgba(0, 0, 255, 0.336);
+}
+
+
+/*Tutte le dimensioni*/
+
+@media screen and (max-height:350px) {
+  #container-music-play{
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width:576px){
+  #spotify-menu{
+    width:10vw;
+  }
+
+  #spotify-content{
+    width: 90vw;
+  }
+}
