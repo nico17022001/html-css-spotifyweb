@@ -37,7 +37,6 @@
 #spotify-content{
   width: 80vw;
   border: solid;
-  overflow: overlay;
   background-color: rgba(0, 0, 255, 0.336);
 }
 
@@ -50,7 +49,7 @@
 
 #main-content{
   width: 100%;
-  height: 70vh;
+  height: 85vh;
   border: solid;
   overflow: hidden;
   overflow: auto;
