@@ -157,15 +157,17 @@ main{
 }
 
 .upgrade{
-  padding: 5px 40px;
-  border: solid white;
+  padding: 10px 40px;
+  border: 0.5px solid white;
   border-radius: 15px;
-  max-width: 200px;
-  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.upgrade:hover a {
+  padding: 3px 5px;
 }
 
 .upgrade a{
