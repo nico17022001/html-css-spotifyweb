@@ -149,6 +149,33 @@ main{
   font-size: small;
 }
 
+.playlist-library:hover span{
+  color: white;
+}
+
+#upgrade-container{
+  display: flex;
+  align-content: center;
+  padding: 10px 5px;
+  justify-content: flex-end;
+}
+
+.upgrade{
+  padding: 5px 10px;
+  border: solid white;
+  border-radius: 15px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upgrade a{
+  font-size: x-small;
+  text-decoration: none;
+  color: white;
+}
+
 
 /*Tutte le dimensioni*/
 
