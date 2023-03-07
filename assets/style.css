@@ -9,7 +9,40 @@
   background-color: rgba(0, 0, 255, 0.336);
 }
 
+.search{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.search:hover{
+  border-left: solid #adff2f;
+}
+
+.search:hover span{
+  color: white;
+}
+
+.search svg{
+  width: 25px;
+}
+
+.search span{
+  color: #6f6f6f;
+  padding-left: 5px;
+  font-size: small;
+}
+
+h2{
+  color: white;
+}
+
 /*Main*/
+
+main{
+  font-family: 'Roboto', sans-serif;
+}
 
 #general-container{
   width: 100vw;
@@ -26,8 +59,7 @@
 #spotify-menu{
   width: 20vw;
   height: 85vh;
-  border: solid;
-  background-color: rgba(0, 0, 255, 0.336);
+  background-color: black;
 }
 
 #spotify-content{
@@ -62,6 +94,59 @@
   height: 15vh;
   border: solid;
   background-color: rgba(0, 0, 255, 0.336);
+}
+
+#logo{
+  padding: 15px 10px;
+}
+
+#logo svg{
+  width: 140px;
+}
+
+.playlist{
+  padding: 20px 10px 0px 10px;
+}
+
+.playlist h2{
+  font-size: medium;
+}
+
+.crate-playlist{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.crate-playlist:hover{
+  border-left: solid #adff2f;
+}
+
+.crate-playlist:hover span{
+  color: white;
+}
+
+.crate-playlist:hover svg{
+  fill: white;
+}
+
+.crate-playlist svg{
+  width: 30px;
+  fill: #a3a3a3;
+}
+
+.crate-playlist span{
+  color: #a3a3a3;
+  padding-left: 10px;
+}
+
+.library{
+  padding: 6px 10px;
+}
+
+.library span{
+  color: #a3a3a3;
+  font-size: small;
 }
 
 
