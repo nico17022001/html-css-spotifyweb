@@ -89,7 +89,7 @@ main{
   width: 100vw;
   height: 15vh;
   border: solid;
-  background-color: rgba(0, 0, 255, 0.336);
+  background-color: #282828;
 }
 
 #logo{
@@ -116,6 +116,7 @@ main{
 
 .crate-playlist:hover{
   border-left: solid #adff2f;
+  cursor: pointer;
 }
 
 .crate-playlist:hover span{
@@ -143,6 +144,10 @@ main{
 .library span{
   color: #a3a3a3;
   font-size: small;
+}
+
+.playlist-library div:hover{
+  cursor: pointer;
 }
 
 .playlist-library:hover span{
