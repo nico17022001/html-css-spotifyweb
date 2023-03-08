@@ -64,10 +64,14 @@ main{
 }
 
 #upgrade-container{
-  width: 100%;
+  width: calc( 100% - 200px);
   height: 90px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 998;
   border: solid;
-  background-color: #080b12;
+  background-color: #080b12f8;
 }
 
 #main-content{
@@ -155,7 +159,7 @@ main{
 #upgrade-container{
   display: flex;
   align-items: center;
-  padding: 10px 5px;
+  padding: 10px 22px;
   justify-content: flex-end;
 }
 
@@ -165,7 +169,6 @@ main{
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 
@@ -188,16 +191,24 @@ main{
 
 @media screen and (max-height:350px) {
   #container-music-play{
-    height: 40vh;
+    height: 50px;
+  }
+
+  #upgrade-container{
+    height: 50px;
   }
 }
 
 @media screen and (max-width:576px){
   #spotify-menu{
-    width:10vw;
+    width: 50px;
+  }
+
+  #upgrade-container{
+    width: calc(100% - 50px);
   }
 
   #spotify-content{
-    width: 90vw;
+    width: calc(100% - 50px);
   }
 }
