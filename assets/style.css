@@ -231,7 +231,6 @@ main{
   background-color: #141922;
   margin-top: 90px;
   padding:0px 30px;
-  height: 100%;
 }
 
 #music-library ul{
@@ -287,13 +286,43 @@ main{
 
 .card{
   height: 300px;
-  width: calc(100% / 6 );
-  padding: 0 5px;
+  width: 200px;
+  padding-right: 10px;
 }
 
 .card img{
   height: 65%;
   width: 100%;
+}
+
+
+.filter-play{
+  background-color: rgba(0, 0, 0, 0.505);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: none;
+}
+
+.filter-play i{
+  font-size: x-large;
+}
+
+.card .img-container:hover{
+  cursor: pointer;
+}
+
+.card .img-container:hover .filter-play{
+  display: flex;
+}
+
+.img-container{
+  position: relative;
 }
 
 .song-title{
@@ -317,13 +346,16 @@ main{
   font-size: small;
 }
 
+.gray-text{
+  color:#6d7075 ;
+  margin-top: 5px;
+  font-size: small;
+}
+
 
 /*Tutte le dimensioni*/
 
 @media screen and (max-width:768px){
-  .looking-for ul{
-    
-  }
 }
 
 
