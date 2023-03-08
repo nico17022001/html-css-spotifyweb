@@ -25,13 +25,13 @@
 }
 
 .search svg{
-  width: 25px;
+  width: 20px;
 }
 
 .search span{
   color: #6f6f6f;
   padding-left: 5px;
-  font-size: small;
+  font-size: x-small;
 }
 
 h2{
@@ -44,23 +44,29 @@ main{
   font-family: 'Roboto', sans-serif;
 }
 
-#general-container{
-  width: 100vw;
-  height: 85vh;
-}
-
 #two-sections-container{
   display: flex;
+  height: calc(100vh - 90px);
 }
 
 #spotify-menu{
   width: 200px;
+  height: 100%;
   background-color: black;
+}
+
+.high-menu{
+  height: calc(100% - 80px);
+  overflow: auto;
+}
+
+.low-menu{
+  height: 80px;
+  background-color: yellow;
 }
 
 #spotify-content{
   width: calc(100% - 200px);
-  border: solid;
 }
 
 #upgrade-container{
@@ -70,27 +76,18 @@ main{
   right: 0;
   top: 0;
   z-index: 998;
-  border: solid;
   background-color: #080b12f8;
 }
 
 #main-content{
   width: 100%;
-  height: 85vh;
-  border: solid;
-  overflow: hidden;
+  height: 100%;
   overflow: auto;
 }
 
 #container-music-play{
-  position: fixed;
-  z-index: 999;
-  bottom: 0;
-  right: 0;
-  left: 0;
   width: 100%;
   height: 90px;
-  border: solid;
   background-color: #282828;
 }
 
@@ -99,7 +96,7 @@ main{
 }
 
 #logo svg{
-  width: 140px;
+  width: 100px;
 }
 
 .playlist{
@@ -107,7 +104,7 @@ main{
 }
 
 .playlist h2{
-  font-size: medium;
+  font-size: x-small;
 }
 
 .crate-playlist{
@@ -130,13 +127,14 @@ main{
 }
 
 .crate-playlist svg{
-  width: 30px;
+  width: 20px;
   fill: #a3a3a3;
 }
 
 .crate-playlist span{
   color: #a3a3a3;
   padding-left: 10px;
+  font-size: small;
 }
 
 .library{
@@ -145,7 +143,7 @@ main{
 
 .library span{
   color: #a3a3a3;
-  font-size: small;
+  font-size: x-small;
 }
 
 .playlist-library div:hover{
@@ -184,6 +182,7 @@ main{
 
 #music-library{
   background-color: #141922;
+  margin-top: 90px;
 }
 
 
@@ -192,6 +191,10 @@ main{
 @media screen and (max-height:350px) {
   #container-music-play{
     height: 50px;
+  }
+
+  #music-library{
+    margin-top: 50px;
   }
 
   #upgrade-container{
