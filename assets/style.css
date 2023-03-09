@@ -500,7 +500,10 @@ body{
 }
 
 
-
+.scroll-list{
+  height: 200px;
+  overflow: auto;
+}
 
 
 
@@ -521,11 +524,6 @@ body{
     width: calc(100% / 4);
   }
 }
-
-@media screen and (max-width:768px){
-
-}
-
 
 @media screen and (max-width:576px){
   #spotify-menu{
@@ -593,7 +591,7 @@ body{
 
 @media screen and (max-height:350px) {
   #container-music-play{
-    height: 50px;
+    height: 80px;
   }
 
   #music-library{
@@ -601,7 +599,7 @@ body{
   }
 
   #upgrade-container{
-    height: 50px;
+    height: 70px;
   }
 }
 
